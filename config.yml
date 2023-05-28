@@ -6,7 +6,7 @@ theme: "PaperMod"
 params:
     homeInfoParams:
         Title: Hello World 👋
-        Content: This is a sample hugo template
+        Content: This is a sample hugo template!
 
     socialIcons: # optional
         - name: "github"
