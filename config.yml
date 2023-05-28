@@ -1,58 +1,48 @@
-baseURL: https://hugsch.github.io
+baseURL: https://hugsch.github.io/
 languageCode: en-us
-title: Hugsch Digital Garden
+title: Author Name
 theme: "PaperMod"
 
 params:
-  homeInfoParams:
-    Title: Sup bruh 😎
-    Content: This is something shows in your homepage.
+    homeInfoParams:
+        Title: Hello World 👋
+        Content: This is a sample hugo template
 
-  socialIcons: # optional
-    - name: "github"
-      url: "https://github.com/hugsch"
-    - name: "twitter"
-      url: "https://twitter.com/XXX"
-  ShowReadingTime: true
-  author: "hugsch"
-  contact: "hug-sch@outlook.com"
-  feedlinks: true
-  copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
-  mobileMenu: true
-
- #Google Analytics 4 optional
-  env: #production
-  GoogleAnalytics: "G-00000XXXXX" 
-  sitemap:
-    changefreq: daily
-    filename: sitemap.xml
-    priority: 0.5
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/sawhney17"
+        - name: "youtube"
+          url: "https://www.youtube.com/channel/UCjMJeOCEAG2XFtd9JvZwomw"
+        - name: "twitter"
+          url: "https://twitter.com/aryansawhney17"
+        - name: "kofi" 
+          url: "https://buymeacoffee.com/sawhney17"
+        - name: "rss"
+          url: "https://aryansawhney.com/index.xml"
+    ShowReadingTime: true
+    author: "One Nice Person"
 
 outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # is necessary
-  section:
-    - HTML
-    - RSS
-    - JSON
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 
 menu:
-  main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 20
-    - identifier: archive
-      name: Archive
-      url: /archives/
-      weight: 20
+    main:
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 20
+        - identifier: archive
+          name: Archive
+          url: /archives/
+          weight: 20
