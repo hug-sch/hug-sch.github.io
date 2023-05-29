@@ -3,14 +3,14 @@ tags:
 - PP
 title: Transaction
 categories:
-date: 2023-05-27
-lastMod: 2023-05-27
+date: 2023-05-29
+lastMod: 2023-05-29
 ---
 # Transaction
 
-## Buying or selling securities
-
-![transaction-20230525-134306.png](/assets/transaction-20230525-134306_1685198802956_0.png)
+## Buying a security
+![transaction-20230525-134306_1685198802956_0.png](/assets/transaction-20230525-134306_1685198802956_0_1685361637474_0.png)
+  + 
 
 The minimum info that you need for a buying or selling transaction is:
 
@@ -28,10 +28,13 @@ The minimum info that you need for a buying or selling transaction is:
 
   + Debit Note: this is the amount that you have to pay or receive as a result of this transaction. Other names are: Value or Net Value.
 
-Optional fields are: the Gross Amount (shares * Quote); Fees and Taxes; both in the deposit currency and Security currency. The fees and taxes in the securities currency however are converted to the Deposit currency.
+  + Optional fields are: the Gross Amount (shares * Quote); Fees and Taxes; both in the deposit currency and Security currency. The fees and taxes in the securities currency however are converted to the Deposit currency.
+  + Depending on which value is entered as last value, some of the other fields are recalculated.
 
-Depending on which value is entered as last value, some of the other fields are recalculated.
+  + Entered as last value:
 
-Entered as last value:
+    + Debit Note: The Gross Amount in both currencies are recalculated. Because the Gross Amount in the security currency changes, also the Quote price will change (the amount of shares remains the same). The quote is automatically calculated; based upon Debit Note (Value) = Shares * Quote.
 
-  + Debit Note: The Gross Amount in both currencies are recalculated. Because the Gross Amount in the security currency changes, also the Quote price will change (the amount of shares remains the same). The quote is automatically calculated; based upon Debit Note (Value) = Shares * Quote.
+## Receiving a dividend
+
+![import-20230526-112018.png](/assets/import-20230526-112018_1685188046491_0.png)

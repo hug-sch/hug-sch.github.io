@@ -2,8 +2,8 @@
 title: Purchase Value
 tags:
 categories:
-date: 2023-05-27
-lastMod: 2023-05-27
+date: 2023-05-29
+lastMod: 2023-05-29
 ---
 # Purchase Value
 
