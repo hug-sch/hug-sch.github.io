@@ -4,7 +4,7 @@ tags:
 date: 2023-05-24
 title: Importing
 categories:
-lastMod: 2023-05-29
+lastMod: 2023-05-30
 ---
 # Importing a CSV-file
 
