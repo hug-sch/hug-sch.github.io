@@ -7,7 +7,7 @@ lastMod: 2023-05-30
 ---
 # Purchase Value
 
-The Purchase Value of a security is the summed [value](http://localhost:8800/doku.php?id=pp:value) of each buy (+) and sell (-) transaction of that security, taken into account the reporting [[period]] . The value of a transaction includes the taxes and fees; sometimes also called “Net Transaction Value”.
+The Purchase Value of a security is the summed [value](http://localhost:8800/doku.php?id=pp:value) of each buy (+) and sell (-) transaction of that security, taken into account the reporting [period]({{< ref "/pages/period" >}}) . The value of a transaction includes the taxes and fees; sometimes also called “Net Transaction Value”.
 
 If the purchase date lies before the beginning of the reporting period, then the value at the beginning of the period is taken. If the purchase date lies within the period, then the value at the purchase date is used. However, if the purchase data is later than the end of the reporting period, then the purchase is not taken into account for the calculation of the purchase value.
 

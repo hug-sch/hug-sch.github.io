@@ -20,6 +20,6 @@ Table of Contents
 
   + [Transaction]({{< ref "/pages/Transaction" >}})
 
-  + [[performance]]
+  + [performance]({{< ref "/pages/performance" >}})
 
 
