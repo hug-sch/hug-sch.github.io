@@ -11,9 +11,7 @@ PP calculates an ex-post (after the fact) IRR. The investment has been made and 
 
 The calculation of IRR is related to the calculation of the future or present value of an investment.
 
-![future-value_1685557639639_0.svg](/assets/future-value_1685557639639_0_1685729100485_0.svg)
-
-  + 
+![present-future-value.png](/assets/present-future-value_1685730050469_0.png)
 
 Because IRR is the annual interest rate that should generate these actual future cashflows the following equation holds.
 ![image.png](/assets/image_1685524323158_0.png)
