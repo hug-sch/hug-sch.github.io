@@ -31,7 +31,7 @@ PP calculates several variants of the IRR  key indicator. You can find them at:
 
 Summary
 
-  + Reports > Performance: the IRR is calculated for the whole project (all securities and all deposit accounts) and for the complete reporting period. If dividends are parked on a deposit account, they will contribute to the final result of the period. Only three numbers are important: initial value of portfolio, end value of portfolio and numbers of days between begin and end of reporting period. 
+  + Reports > Performance: the IRR is calculated for the whole project (all securities and all deposit accounts) and for the complete reporting period. If dividends are parked on a deposit account, they will contribute to the final result of the period. Only three numbers are important: initial value of portfolio, end value of portfolio and numbers of days between begin and end of reporting period.
 
   + Reports > Performance > Securities: the IRR is calculated per security from the start of the reporting period until the end. If the buy or sell transactions lay before the reporting period the corresponding historical quote is taken to determine the value.  All transactions in the reporting period, including dividends, are evaluated at the transaction date (not the end date of the period).
 

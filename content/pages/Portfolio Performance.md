@@ -4,22 +4,24 @@ tags:
 title: Portfolio Performance
 categories:
 date: 2023-05-30
-lastMod: 2023-05-30
+lastMod: 2023-06-05
 ---
 
 
 Table of Contents
 
-[Importing]({{< ref "/pages/Importing" >}})
+  + [Importing]({{< ref "/pages/Importing" >}})
 
-[[Concepts]]
+  + [Transfer]({{< ref "/pages/Transfer" >}})
 
-  + [Purchase Value]({{< ref "/pages/Purchase Value" >}})
+  + [[Concepts]]
 
-  + [account]({{< ref "/pages/account" >}})
+    + [Purchase Value]({{< ref "/pages/Purchase Value" >}})
 
-  + [Transaction]({{< ref "/pages/Transaction" >}})
+    + [account]({{< ref "/pages/account" >}})
 
-  + [performance]({{< ref "/pages/performance" >}})
+    + [Transaction]({{< ref "/pages/Transaction" >}})
 
+    + [performance]({{< ref "/pages/performance" >}})
 
+    + [[exchangeRate]]

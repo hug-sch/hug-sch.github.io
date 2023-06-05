@@ -3,7 +3,7 @@ title: performance
 tags:
 categories:
 date: 2023-05-30
-lastMod: 2023-05-31
+lastMod: 2023-06-04
 ---
 Available at Sidebar > Reports > Performance
 
@@ -23,7 +23,7 @@ Dashboard
 
   + Left panel: key indicators (sleutelindicatoren)
 
-    + True Time-Weighted Rate of Return (cumulative)
+    + [True Time-Weighted Rate of Return (cumulative)](TTWROR)
 
     + [Internal Rate of Return (IRR)]([IRR]({{< ref "/pages/IRR" >}}))
 
