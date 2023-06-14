@@ -27,7 +27,7 @@ $$CF_{t0} = \frac{15}{(1 + IRR)^\frac{243}{365}}+\frac{17}{(1 + IRR)^\frac{608}{
 What should $CF_{t0}$ be when IRR is for example 5% or 15%?
 
 ![IRR-calculation.svg](/assets/irr-calculation_1686767634551_0.svg)
-
+![alt text](https://raw.githubusercontent.com/hugsch/hugsch.github.io/main/assets/irr-calculation_1686767634551_0.svg) 
 
 
 If IRR = 15% then the combined future cashflows are worth 159.16 EUR in 2021-01-15. So, you need less money (than 170 EUR) to get the same financial results. So, the real IRR should be somewhat lower. With 5% however, you need in 2021 about 194.64 EUR to get the same total cashflows. After some guesswork and interpolation you get at the exact IRR = 11.61% that will bring all future cashflow to the precise initial investment of 170 EUR.
