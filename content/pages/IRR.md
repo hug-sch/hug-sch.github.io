@@ -1,81 +1,61 @@
 ---
-title: IRR
 tags:
+- PP
+date: 2023-06-14
+title: IRR
 categories:
-date: 2023-05-30
-lastMod: 2023-06-02
+lastMod: 2023-06-14
 ---
-The Internal Rate of Return (IRR) of an investment is the annual interest rate for the investment in order to generate the actual cash flows later on.
+The Internal Rate of Return (IRR) measures the performance of an investment between two dates. It is expressed as an annual interest rate that is necessary to bring the initial value of the investment at time t_{0} to the final value at time t_{n}. In PP, the reporting period is measured in days. The IRR can apply for a specific security or trade or the whole portfolio. The classic equation to explain the meaning of IRR is:
 
-PP calculates an ex-post (after the fact) IRR. The investment has been made and the actual cashflows are known.
+**Eq (1)**    $CF_{t0} = \frac{CF_{t1}}{(1 + IRR)^\frac{t_1}{365}}+\frac{CF_{t2}}{(1 + IRR)^\frac{t_2}{365}}+...+ \frac{CF_{tn}}{(1 + IRR)^\frac{t_n}{365}}$
+$CF_{t0}$ is the initial cashflow at time $t_0$. It is the sum of all in- and outflows at that moment in time and represents your initial investment. $CF_{t1}$, $CF_{tn}$ are the net -hopefully positive- cashflows that your initial investment will yield. PP works with periods of 1 day instead of the classical periods of 1 year. Therefore $t_1$, $t_2$, $t_n$ should be converted to the number of days between $t_0$ and $t_n$. Of course, if the period between $t_0$ and $t_n$ is  for example 365 days, the exponent becomes 1. Eq (1) is a direct derivation from the classic formula of [[present value]].
 
-The calculation of IRR is related to the calculation of the future or present value of an investment.
+A simple example. There is also a [IRR Practical example step-by-step]({{< ref "/pages/IRR Practical example step-by-step" >}}), solved in PP. On 2021-01-15 you have bought 10 shares at 17 EUR. Now (2023-06-15) the price has increased to 18.5 EUR. Meanwhile, you have received a dividend of 1.5 EUR/share on 2021-09-10 and a second dividend of 1.7 EUR/share on 2022-09-10. What is the performance or IRR of this security? Let's first have the timing and cashflows correct.
 
-![present-future-value.png](/assets/present-future-value_1685730050469_0.png)
+| Date       | $t_n$ | $CF_n$   |
+|------------|------|------|
+| 2021-01-15 |        |  170€  |
+| 2021-09-15 | 243d  | 15€   |
+| 2022-09-15 | 608d  | 17€   |
+| 2023-06-15 | 881d  | 185€  |
 
-Because IRR is the annual interest rate that should generate these actual future cashflows the following equation holds.
-![image.png](/assets/image_1685524323158_0.png)
-*Equation (1)*
+According to (1)
 
-There is no easy way to derive IRR from this equation. The Excel function IRR for example solves the problem by trying out different values for IRR (starting form the parameter Guess).
+$$CF_{t0} = \frac{15}{(1 + IRR)^\frac{243}{365}}+\frac{17}{(1 + IRR)^\frac{608}{365}}+ \frac{185}{(1 + IRR)^\frac{881}{365}}$$
 
-Equation (1) also assumes that the periods are evenly spread in time and have a duration of exactly 1 year. If you want to specify the periods in days, you need a fraction: days from period 0 to period n/365. The result 1 means exactly 1 year later, 1.5 is one and a half year later, ... The extended or XIRR function can be used in Excel for this calculation.
+What should $CF_{t0}$ be when IRR is for example 5% or 15%?
 
-PP calculates several variants of the IRR  key indicator. You can find them at:
+![IRR-calculation.svg](/assets/irr-calculation_1686767634551_0.svg)
 
-  + Reports > Performance
 
-  + Reports > Performance > Securities
 
-  + Reports > Performance > Trades
+If IRR = 15% then the combined future cashflows are worth 159.16 EUR in 2021-01-15. So, you need less money (than 170 EUR) to get the same financial results. So, the real IRR should be somewhat lower. With 5% however, you need in 2021 about 194.64 EUR to get the same total cashflows. After some guesswork and interpolation you get at the exact IRR = 11.61% that will bring all future cashflow to the precise initial investment of 170 EUR.
 
-Summary
+In the previous example, the dividends are immediately "consumed" (you got yourself a nice meal from it). In another scenario, you keep the dividends in your drawer until 2023-06-15 and cash them in at the same moment you sell the share. In that case, there are only two cashflows: $CF_{t0}$ = 170 EUR and $CF_{t881}$ = 15 + 17 +185 EUR.
 
-  + Reports > Performance: the IRR is calculated for the whole project (all securities and all deposit accounts) and for the complete reporting period. If dividends are parked on a deposit account, they will contribute to the final result of the period. Only three numbers are important: initial value of portfolio, end value of portfolio and numbers of days between begin and end of reporting period.
+Equation (1) has only two terms and could be solved for IRR rather easily.
 
-  + Reports > Performance > Securities: the IRR is calculated per security from the start of the reporting period until the end. If the buy or sell transactions lay before the reporting period the corresponding historical quote is taken to determine the value.  All transactions in the reporting period, including dividends, are evaluated at the transaction date (not the end date of the period).
 
-  + Reports > Performance > Trades calculates the IRR per share without dividends or other income; from the first transaction (usually buy) until the last transaction (sell) or today. There is no reporting period.
 
-## Buy and sell
+**Eq (2)**    $CF_{t0} = \frac{CF_{t1}}{(1 + IRR)^\frac{t_1}{365}} \implies  IRR = \sqrt[\frac{t_1}{365}]{\frac{CF_{t1}}{CF_{t0}}}-1$
 
-Let's take a look at a simplified example: you bought a security two years ago for 5 EUR/share. Today you can sell it at 8 EUR/share. What is the IRR?
-![image.png](/assets/image_1685721535723_0.png)
-*Deposit of 5 EUR, followed by buy (share-1) for 5 EUR, followed by sell two years later for 8 EUR*
+In this case, your initial investment of 170 EUR has an IRR = $\sqrt[\frac{881}{365}]{\frac{217}{170}}-1$ = 10.64%. Why is this IRR smaller than the previous one? Because you kept the dividend until a later date, the 15 EUR in 2021-09-15 is less worth in 2023-06-15.
 
-If you should redo this example in PP, then the [reporting period](period) is important. By default, it is set to 1 year; so may be the transactions aren't even in the reporting period. Let's assume that the reporting period is set to  "From 2020-01-01 until 2022-01-02".  Remember that the period runs from the end of the start date until the end of the finish date.
 
-The different IRR metrics are:
 
-  + Reports > Performance: 26.45%
+PP calculates three variants of IRR.
 
-  + Reports > Performance > Securities: 26.45%
+  + Performance IRR: this is the IRR for the whole project and a specific reporting period; see side bar > Reports > Performance.
 
-  + Reports > Performance > Trades: 26.45%
+  + Security IRR: the IRR of a selected security for a specific reporting period; see sidebar > Reports > Performance > Securities.
 
-  + Excel XIRR: 26.45%
+  + Trade IRR: the IRR of a buy-sell cycle of a selected security. See sidebar > Reports > Performance > Trades
 
-Because the reporting period and the actual buy/sell dates convey, the IRR metric should also be the same. In order to make 8 EUR from 5 EUR in 731 days (2020 is a leap year), the interest rate (IRR) should be 26.45%.
+The Performance and Security IRR are calculated for a specific [[reporting period]]; e.g. 1 year, 2 years, 3 years, custom period. It is very important to distinguish the following cases:
 
-From the equation (1):
-5 EUR = 8 EUR/(1 + 0.2645)^(731/365)
+  + $t_0$ occurs before the start of the reporting period ($RP_{start}$).  PP can calculate the value of $CF_0$ (through historic quotes or transaction price) at $RP_{start}$. The holding period is calculated from $RP_{start}$ for each CF.
 
-## Dividends
+  + $t_0$ occurs after $RP_{start}$ but before $RP_{end}$. The value of  The value of $CF_0$ is known. The holding period is calculated from $RP_{start}$.
 
-Let's make the example a little more complex. A dividend of 2 EUR is paid on 2021-05-01.
-
-  + Reports > Performance: 41.35%
-
-  + Reports > Performance > Securities: 45.34%
-
-  + Reports > Performance > Trades: 26.45%
-
-  + Excel XIRR: 45.32%
-
-The Trade IRR remains the same as in the buy/sell scenario. Dividends are not accounted for in this metric. Only the buy and sell transactions are used in the equation. It's the IRR of a trade.
-
-The Securities IRR is the same as the Excel XIRR and fits with Equation (1). In the Securities view there is a column with sum of dividends. So, it seems logical that the dividends are considered as a cash inflow. In Equation (1) you need two periods: the dividend at 486 days and the sell transaction at 731 days. The equation becomes:
-5 EUR = 2 EUR/(1+IRR)^(486/365) + 8 EUR/(1+IRR)^(731/365).
-Deriving IRR from this equation takes some trial-and-error.  The exact solution is 45.34%.
-
-The Performance IRR is calculated for the portfolio as a whole. So, there is only 1 period (from 2020-01-01 until 2022-01-02). The calculation takes the value of the complete portfolio at the beginning of the reporting period (= 5 EUR). This is the first cashflow, and again at the end date (=10 EUR) for the second and last cash flow. So, the portfolio increases from 5 EUR to 10 EUR in about 731 days. The interest rate to accomplish that is 41.35% annually. Why is the Performance IRR smaller than the Securities IRR? In the latter case, the dividend of 2 EUR is brought to PV from 2021-05-01 (the date of the payment) and for the Performance IRR, the 2 EUR is included in the final portfolio value of 10 EUR and is brought to PV from 2022-01-01. So, the dividend of 2 EUR will contribute more to the IRR in the Security IRR.
+  + $t_n$ falls after $RP_{end}$. All transactions after $RP_{end}$ do not contribute to the calculation of IRR for that reporting period.
