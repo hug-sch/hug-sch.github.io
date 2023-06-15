@@ -27,7 +27,7 @@ $$CF_{t0} = \frac{15}{(1 + IRR)^\frac{243}{365}}+\frac{17}{(1 + IRR)^\frac{608}{
 
 What should \\(CF_{t0}\\)$ be when IRR is for example 5% or 15%?
 
-![Calculation of IRR manually](/assets/irrcalculations.svg)
+![Calculation of IRR](/assets/irrcalculations.svg)
 <img src="/assets/irrcalculations.svg"/>
 
 
