@@ -2,7 +2,7 @@ baseURL: https://hugsch.github.io/
 languageCode: en-us
 title: hugsch
 theme: "PaperMod"
-
+assetDir: content/assets
 params:
     homeInfoParams:
         Title: 
