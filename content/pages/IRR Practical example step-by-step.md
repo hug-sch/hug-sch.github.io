@@ -5,6 +5,8 @@ date: 2023-06-14
 title: IRR Practical example step-by-step
 categories:
 lastMod: 2023-06-14
+cover:
+  image: /assets/image_1686658645885_0.png
 ---
 Let's build a simple example -step by step- to illustrate the various concepts. Create a new portfolio test-01.xml with currency EUR. Add a securities account (broker-A) and a reference account (broker-A (EUR). Add two new empty instruments (share-1 & share-2). Use the symbol tickers DTE.DE and TMV.DE respectively and set Yahoo Finance (Exchange Deutsche Börse XETRA) as quote Feed.
 

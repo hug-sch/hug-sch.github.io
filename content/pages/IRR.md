@@ -6,6 +6,8 @@ title: IRR
 categories:
 lastMod: 2023-06-14
 math: true
+cover:
+  image: /assets/irrcalculations.svg
 ---
 The Internal Rate of Return (IRR) measures the performance of an investment between two dates. It is expressed as an annual interest rate that is necessary to bring the initial value of the investment at time \\(t_{0}\\) to the final value at time \\(t_{n}\\). In PP, the reporting period is measured in days. The IRR can apply for a specific security or trade or the whole portfolio. The classic equation to explain the meaning of IRR is:
 
