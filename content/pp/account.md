@@ -15,11 +15,11 @@ Other related types are “Investment Plans”, “All Transactions”, “Refer
 
 Deposit account
 
-![account-types-deposit.png](/assets/account-types-deposit_1685198463475_0.png)
+![account-types-deposit.png](/pp/assets/account-types-deposit_1685198463475_0.png)
 
 In Figure above, there are two deposit accounts; named EUR and USD (in column Cash Account). They will be used for deposits and withdrawals in EUR or USD. It's a bit redundant to call them “EUR” and “USD” because you also have to specify the currency that the account will use (see third column in figure). Then, for example, when you want to book a dividend in EUR, you will get the following dialog. The cash account can can be selected from a drop-down and the correct currency is automatically added.
 
-![account-dividend-booking.png](/assets/account-dividend-booking_1685198677334_0.png)
+![account-dividend-booking.png](/pp/assets/account-dividend-booking_1685198677334_0.png)
 
 According to your needs, you can use other names. For example, if you want to collect all of your dividends or taxes in a separate account, you could name them “Dividends” and “Taxes” in stead of EUR and USD. Of course, you also have to decide which currency that will be used for them. And, if you receive dividends in EUR and USD then you need two deposit account with the name “Dividends” but with different currencies.
 
@@ -33,7 +33,7 @@ A deposit account is used to transfer or receive money as the result of a transa
 
 A security account will hold your securities and will be used if you buy or sell securities. A security account is most of the time named after the broker or bank that you use to buy or sell.
 
-![account-20230524-110805.png](/assets/account-20230524-110805_1685198579909_0.png)
+![account-20230524-110805.png](/pp/assets/account-20230524-110805_1685198579909_0.png)
 
 ## Reference account
 

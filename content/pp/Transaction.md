@@ -9,7 +9,7 @@ lastMod: 2023-05-30
 # Transaction
 
 ## Buying a security
-![transaction-20230525-134306_1685198802956_0.png](/assets/transaction-20230525-134306_1685198802956_0_1685361637474_0.png)
+![transaction-20230525-134306_1685198802956_0.png](/pp/assets/transaction-20230525-134306_1685198802956_0_1685361637474_0.png)
   + 
 
 The minimum info that you need for a buying or selling transaction is:
@@ -18,7 +18,7 @@ The minimum info that you need for a buying or selling transaction is:
 
   + Securities Account: choose with drop-down or already filled in, if you started from the Securities account.
 
-  + Deposit Account: choose with drop-down or already filled in with the  [account]({{< ref "/pages/account" >}}) of the security. If the currency of the deposit account is different from the security currency, then the Gross Amount and eventually Fees and Taxes (in the Security currency) have to be converted. So, you also need an Exchange Rate.
+  + Deposit Account: choose with drop-down or already filled in with the  [account]({{< ref "/pp/account" >}}) of the security. If the currency of the deposit account is different from the security currency, then the Gross Amount and eventually Fees and Taxes (in the Security currency) have to be converted. So, you also need an Exchange Rate.
 
   + Date of transaction: you can choose it from a calendar or enter it manually.
 
@@ -37,4 +37,4 @@ The minimum info that you need for a buying or selling transaction is:
 
 ## Receiving a dividend
 
-![import-20230526-112018.png](/assets/import-20230526-112018_1685188046491_0.png)
+![import-20230526-112018.png](/pp/assets/import-20230526-112018_1685188046491_0.png)

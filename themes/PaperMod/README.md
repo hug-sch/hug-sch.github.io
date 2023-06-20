@@ -76,7 +76,7 @@ Release ChangeLog has info about stuff added: **[Releases](https://github.com/ad
 
 ---
 
-## [Pagespeed Insights (100% ?)](https://pagespeed.web.dev/report?url=https://adityatelange.github.io/hugo-PaperMod/) 👀
+## [Pagespeed Insights (100% ?)](https://pppeed.web.dev/report?url=https://adityatelange.github.io/hugo-PaperMod/) 👀
 
 ---
 

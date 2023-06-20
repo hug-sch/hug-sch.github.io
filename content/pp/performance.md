@@ -13,7 +13,7 @@ Selecting Performance in the sidebar shows the Dashboard. By default this dashbo
 
   + Create a New Dashboard view
 
-  + Set the [period]({{< ref "/pages/period" >}}) (1 year, 2 years, ...)
+  + Set the [period]({{< ref "/pp/period" >}}) (1 year, 2 years, ...)
 
   + Create a New Column (gear icon)
 
@@ -25,7 +25,7 @@ Dashboard
 
     + [True Time-Weighted Rate of Return (cumulative)](TTWROR)
 
-    + [Internal Rate of Return (IRR)]([IRR]({{< ref "/pages/IRR" >}}))
+    + [Internal Rate of Return (IRR)]([IRR]({{< ref "/pp/IRR" >}}))
 
     + Internal Rate of Return (IRR)
 

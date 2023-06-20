@@ -9,7 +9,7 @@ The (reporting) period is the time slice that is taken into account for reportin
 
 You can set it with the drop-down icon in the top-right corner of the window.
 
-![image.png](/assets/image_1685439792335_0.png)
+![image.png](/pp/assets/image_1685439792335_0.png)
 *Drop-down for selecting the reporting period*
 
 The available options are: 1 year, 2 years, 3 years, New ..., Manage ...
@@ -23,7 +23,7 @@ The available options are: 1 year, 2 years, 3 years, New ..., Manage ...
 | 3 years | 2020, May 15 - 2023, May 15 |
 
 With New, you can create custom time periods. The options in the figure below are self-explanatory. You cannot give a self-chosen name to this period.
-![image.png](/assets/image_1685440096313_0.png)
+![image.png](/pp/assets/image_1685440096313_0.png)
 *Different custom time periods for reporting*
 
   + Manage: with this option you can delete or reorder the available time periods.
