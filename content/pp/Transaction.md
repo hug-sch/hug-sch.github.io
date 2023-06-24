@@ -1,7 +1,7 @@
 ---
 title: Transaction types
 date: 2023-05-30
-lastMod: 2023-06-24
+lastmod: 2023-06-24
 categories: ["PortfolioPerformance"]
 math:
 image:
