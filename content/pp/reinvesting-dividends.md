@@ -5,8 +5,8 @@ lastMod: 2023-06-19
 categories: ["PortfolioPerformance"]
 tags:
 math: false
-cover:
-  image: 
+image:
+description: How do you book the reinvestment of a dividend? What about DRIP?
 ---
 A dividend is the payment of a part of the company's profit to its shareholders. Sometimes you can choose to receive this dividend in cash or in shares. But how should you register this latter share dividend.
 
@@ -22,9 +22,9 @@ Choice = share dividend: receiving 10 shares at 45.91 and 5 cash dividends (6.63
   - In this particular example, there is a small benefit because there are no foreign taxes (15%) in case of a share dividend.
 
 There has been a lot of [debate](https://forum.portfolio-performance.info/t/dividend-paid-in-security-stock-dividend-reinvestment-plan-drip/13828/16) about how to book these transactions in PP. My understanding of the proposed procedure is:
-  - book the dividends for all shares *without* fees and taxes. They will be paid for in the following step. If your broker doesn't allow for share fractions, you can use one transaction for the share dividend part (e.g. 295 in the example) without fees & taxes and another transaction with taxes and fees for the cash dividend. 
+  - book the dividends for all shares *without* fees and taxes. These will be paid for in the following step. If your broker doesn't allow for share fractions, you can use one transaction for the share dividend part (e.g. 295 in the example) without fees & taxes and another transaction with taxes and fees for the cash dividend. 
   - buy the allocated shares at the same day with the theoretical historical quote and the associated fees and taxes.
 
 ![Implementation in PP](/pp/assets/reinvesting-dividends-2023-06-20-11-29-29.png)
 
-Please note that in this example the total outflow is much larger the the inflow from the dividend payment. This is because the number of shares is calculated on the gross amount. So, all taxes and fees are in surplus of this choice dividend.
+Please note that in this example the total outflow is much larger the the inflow from the dividend payment. This is because the number of reinvested shares is calculated on the gross amount. So, all taxes and fees are in surplus of this choice dividend.

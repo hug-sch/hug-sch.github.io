@@ -3,7 +3,7 @@ tags:
 - PP
 date: 2023-06-05
 title: Transfer
-categories:
+categories: [PortfolioPerformance]
 lastMod: 2023-06-05
 ---
 Suppose that you want to switch (part of) your portfolio from Broker-A to Broker-B.  You have already made 4 transactions in the deposit account Broker-A (EUR): deposit, buy, dividend, and sell.

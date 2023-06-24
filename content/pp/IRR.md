@@ -1,17 +1,18 @@
 ---
-tags:
-- PP
-date: 2023-06-14
 title: Internal Rate of Return
-categories:
-lastMod: 2023-06-14
+date: 2023-06-14
+lastMod: 2023-06-20
+categories: ["PortfolioPerformance"]
 math: true
-cover:
-  image: /pp/assets/irrcalculations.svg
+image: /pp/assets/irrcalculations.svg
+Description: The Internal Rate of Return (IRR) measures the performance of an investment between two dates.
+featured: true
 ---
+
 The Internal Rate of Return (IRR) measures the performance of an investment between two dates. It is expressed as an annual interest rate that is necessary to bring the initial value of the investment at time \\(t_{0}\\) to the final value at time \\(t_{n}\\). In PP, the reporting period is measured in days. The IRR can apply for a specific security or trade or the whole portfolio. The classic equation to explain the meaning of IRR is:
 
 **Eq (1)**    \\(CF_{t0} = \frac{CF_{t1}}{(1 + IRR)^\frac{t_1}{365}}+\frac{CF_{t2}}{(1 + IRR)^\frac{t_2}{365}}+...+ \frac{CF_{tn}}{(1 + IRR)^\frac{t_n}{365}}\\)
+$$ CF_{t0} $$
 
 \\(CF_{t0}\\) is the initial cashflow at time \\(t_0\\). It is the sum of all in- and outflows at that moment in time and represents your initial investment. \\(CF_{t1}\\), \\(CF_{tn}\\) are the -hopefully positive- net cashflows that your initial investment will yield. PP works with periods of 1 day instead of the classical periods of 1 year. Therefore \\(t_1\\), \\(t_2\\), \\(t_n\\) should be converted to the number of days between \\(t_0\\) and \\(t_n\\). Of course, if the period between \\(t_0\\) and \\(t_n\\) is  for example 365 days, the exponent becomes 1. Eq (1) is a direct derivation from the classic formula of [present value](/pp/assets/future-present-value.svg).
 
