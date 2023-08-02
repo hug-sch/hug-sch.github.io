@@ -1,35 +1,20 @@
 {{ define "main" }}
 
-<div class="intro-header no-img">
-</div>
+
 
 <div class="container" role="main">
-  <div class="row">
+  <div class="row ">
     {{ with .Content }}
-    <div class="well">
+    <div class="well intro-header  ">
       {{.}}
     </div>
     {{ end }}
 
-
-    {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections ) 9 }}
-    {{ range $pag.Pages }}
+    {{ range .Sections }}
     {{ partial "post_preview" . }}
     {{ end }}
 
 
-  </div>
-</div>
-
-<div class="container">
-  <div class="row font-sans">
-    <div class="col-md-12 mt-10">
-      <nav aria-label="Page navigation">
-        <div class="pagination justify-content-end">
-          {{ template "_internal/pagination.html" . }}
-        </div>
-      </nav>
-    </div>
   </div>
 </div>
 

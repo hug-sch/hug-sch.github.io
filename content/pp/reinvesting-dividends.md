@@ -1,13 +1,12 @@
----
-title: Reinvesting dividends
-date: 2023-06-19
-lastMod: 2023-06-19
-categories: ["PortfolioPerformance"]
-tags:
-math: false
-image:
-description: How do you book the reinvestment of a dividend? What about DRIP?
----
++++
+title = "Reinvesting dividends"
+date = 2023-06-19T00:00:00.000Z
+lastMod = 2023-06-19T00:00:00.000Z
+categories = [ "PortfolioPerformance" ]
+math = false
+description = "How do you book the reinvestment of a dividend? What about DRIP?"
+
++++
 A dividend is the payment of a part of the company's profit to its shareholders. Sometimes you can choose to receive this dividend in cash or in shares. But how should you register this latter share dividend.
 
 For example, at the annual general meeting of the NN Group, the shareholders approved a final dividend of EUR 1.56. The final dividend will be paid either fully in cash, after deduction of withholding tax if applicable, or fully in ordinary shares, at the election of the shareholders. The following example is about the choice dividend (300 shares) of a Dutch company, paid to a non-resident investor. The dividend is 1.56 EUR/share. The converting ratio is 1 new share for 29.43 old shares. The historical quote at the pay date is 45.91 EUR.

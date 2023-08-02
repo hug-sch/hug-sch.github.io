@@ -1,14 +1,11 @@
----
-tags:
-- PP
-date: 2023-05-24
-title: Importing
-categories:
-lastMod: 2023-05-30
----
-# Importing a CSV-file
++++
+title =  "Importing a CSV-file"
+date =  "2023-05-24"
+lastMod =  "2023-05-30"
+categories =  ["PortfolioPerformance"]
 
-In PP you can enter your transactions (buy, sell, dividends, … ) manually. You can also *import* those transactions from a CSV file (comma-separated values) or from a PDF document. Not all brokers, however, provide the format that PP needs. So, how should this CSV-file look? Suppose, you want to import the following transaction.
++++
+In PP you can enter your transactions (buy, sell, dividends, … ) manually. You can also *import* those transactions from a CSV file (comma-separated values) or from a PDF document. <!--more--> Not all brokers, however, provide the format that PP needs. So, how should this CSV-file look? Suppose, you want to import the following transaction.
 
 ![transaction-20230525-134306_1685198802956_0.png](/pp/assets/transaction-20230525-134306_1685198802956_0_1685361637474_0.png)
 

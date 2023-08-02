@@ -1,13 +1,14 @@
----
-title: Internal Rate of Return
-date: 2023-06-14
-lastMod: 2023-06-20
-categories: ["PortfolioPerformance"]
-math: true
-image: /pp/assets/irrcalculations.svg
-Description: The Internal Rate of Return (IRR) measures the performance of an investment between two dates.
-featured: true
----
++++
+title = "Internal Rate of Return"
+date = 2023-06-14T00:00:00.000Z
+lastMod = 2023-06-20T00:00:00.000Z
+categories = [ "PortfolioPerformance" ]
+math = true
+image = "/pp/assets/irrcalculations.svg"
+Description = "The Internal Rate of Return (IRR) measures the performance of an investment between two dates."
+featured = true
+
++++
 
 The Internal Rate of Return (IRR) measures the performance of an investment between two dates. It is expressed as an annual interest rate that is necessary to bring the initial value of the investment at time \\(t_{0}\\) to the final value at time \\(t_{n}\\). In PP, the reporting period is measured in days. The IRR can apply for a specific security or trade or the whole portfolio. The classic equation to explain the meaning of IRR is:
 
@@ -19,7 +20,7 @@ $$ CF_{t0} $$
 A simple example. There is also a [IRR Practical example step-by-step]({{< ref "/pp/IRR-example" >}}), solved in PP. On 2021-01-15 you have bought 10 shares at 17 EUR. Now (2023-06-15) the price has increased to 18.5 EUR. Meanwhile, you have received a dividend of 1.5 EUR/share on 2021-09-10 and a second dividend of 1.7 EUR/share on 2022-09-10. What is the performance or IRR of this security? Let's first have the timing and cashflows correct.
 
 | Date       | \\(t_n\\) | \\(CF_n\\)   |
-|------------|------|------|
+|++++++++++++|++++++|++++++|
 | 2021-01-15 |        |  170€  |
 | 2021-09-15 | 243d  | 15€   |
 | 2022-09-15 | 608d  | 17€   |

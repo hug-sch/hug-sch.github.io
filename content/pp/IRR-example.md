@@ -1,11 +1,11 @@
----
-title: IRR Practical example step-by-step
-date: 2023-06-14
-lastMod: 2023-06-14
-categories: ["PortfolioPerformance"]
-image: /pp/assets/image_1686658645885_0.png
-description: An example is the best way to learn the intricacies of a concept!
----
++++
+title =  "IRR Practical example step-by-step"
+date =  "2023-06-14"
+lastMod =  "2023-06-14"
+categories =  ["PortfolioPerformance"]
+image =  "/pp/assets/image_1686658645885_0.png"
+description =  "An example is the best way to learn the intricacies of a concept!"
++++
 Let's build a simple example -step by step- to illustrate the various concepts. Create a new portfolio test-01.xml with currency EUR. Add a securities account (broker-A) and a reference account (broker-A (EUR). Add two new empty instruments (share-1 & share-2). Use the symbol tickers DTE.DE and TMV.DE respectively and set Yahoo Finance (Exchange Deutsche Börse XETRA) as quote Feed.
 
 Add the following transactions (see figure 1): make a deposit of 155 EUR, buy 10 shares of share-1 at 15 EUR on 2021-01-15, ...

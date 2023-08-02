@@ -16,13 +16,7 @@
                 </p>
                 {{ print }}
                 <div class="post-entry">
-
-                    {{ if .Description }}
-                        {{ .Description }}
-
-                    {{ else }}
-                        
-                    {{ end }}
+                    {{ .Summary | safeHTML  }}
                 </div>
 
                 <div class="read-more-section">

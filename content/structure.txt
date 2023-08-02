@@ -1,0 +1,50 @@
+en > docs > VBA docs
+          > VSE docs
+               100 workspace
+                  Properties
+                  File Browser
+                  Timeline
+               200 Sequencer
+                     Header
+                        menu
+                        buttons
+                     Timeline
+                        difference with timeline & sequencer timeline
+                        strip types here of onder ADD????
+                        menu
+                        buttons
+                        Actions (move, zoom, navigate, markers)
+                        maar ook deze van montage?? (selec, add, copy-paste, move, transform, trim, remove/disable, group/meta)
+                     Toolbar
+                     Sidebar
+               300 Preview
+                     Header
+                        Menu (View)
+                        Buttons
+                     Toolbar
+                     Sidebar
+                     Gizmos
+                     Sequencer + preview type
+               400 Other Blender components
+                  User Preferences (add-ons, proxies)
+                  Dope sheet
+                  Image editor (for masks)
+                  text editor (for scripts)
+                  Action editor (animations)
+                  modeling (for scene strips)
+
+               
+
+Blog:
+scene strip!!!
+Edit your sound??
+creating testfiles
+ffMpeg
+extra-tools (python, exif, ...)
+codecs: video - audio?
+post-processing: compositor - subtitles - tracking
+color grading
+
+legacy strips: adjustment layer, transformation, multi-cam???
+
+

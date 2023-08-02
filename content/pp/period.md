@@ -1,10 +1,9 @@
----
-title: period
-tags:
-categories:
-date: 2023-05-30
-lastMod: 2023-05-31
----
++++
+title = "Reporting period"
+date = 2023-05-30
+lastMod = 2023-05-31
+categories = ["PortfolioPerformance"]
++++
 The (reporting) period is the time slice that is taken into account for reporting (calculations, graphs, statistics).
 
 You can set it with the drop-down icon in the top-right corner of the window.
@@ -17,7 +16,7 @@ The available options are: 1 year, 2 years, 3 years, New ..., Manage ...
   + The 1, 2, 3 years period is always calculated from the current day. If the current day is 2023, May 15, then ...
 
 | Period | From end of … to end of … | 
-| ---- | ---- | ---- |
+| +++- | +++- | +++- |
 | 1 year | 2022, May 15 - 2023, May 15 | 
 | 2 years | 2021, May 15 - 2023, May 15 | 
 | 3 years | 2020, May 15 - 2023, May 15 |

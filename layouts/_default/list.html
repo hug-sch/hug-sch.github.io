@@ -9,8 +9,7 @@
         </div>
       {{ end }} 
       <div class="row">
-      {{ $p := site.RegularPages.ByLastmod.Reverse }}
-      {{ range (.Paginate $p).Pages }} 
+      {{ range .RegularPages.ByLastmod.Reverse }} 
           {{ partial "post_preview.html" .}}
         {{ end }}
       </div>

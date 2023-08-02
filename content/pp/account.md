@@ -1,12 +1,12 @@
----
-title: Types of accounts
-date: 2023-05-30
-lastMod: 2023-06-20
-categories: ["PortfolioPerformance"]
-math:
-cover:
----
-An account is a collection of [transactions](/pp/transaction). These could be buy and sell transactions of securities (shares, …) in case of a Securities account or the withdrawal and deposit of money for a Deposit account. Each account has a default [currency]()attached. As part of the installation procedure, you should already have created at least one Securities account and one Deposit account.
++++
+title =  "Types of accounts"
+date =  "2023-05-30"
+lastMod =  "2023-06-20"
+categories =  ["PortfolioPerformance"]
+math = ""
+cover = ""
++++
+An account is a collection of [transactions](/pp/transaction). These could be buy and sell transactions of securities (shares, …) in case of a Securities account or the withdrawal and deposit of money for a Deposit account.<!--more--> Each account has a default [currency]()attached. As part of the installation procedure, you should already have created at least one Securities account and one Deposit account.
 
 PP has two main type accounts: Securities and Deposit accounts. They are rather well described in the [Guide on getting started]([https://forum.portfolio-performance.info/t/guide-on-getting-started/5390#accounts-6]) of Thomas (Contributor). Unfortunately, the internal bookmark to the Accounts section doesn't work; you have to scroll quite a bit down.
 

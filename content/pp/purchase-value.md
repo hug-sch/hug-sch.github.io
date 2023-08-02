@@ -1,13 +1,11 @@
----
-title: Purchase Value
-tags:
-categories:
-date: 2023-05-30
-lastMod: 2023-05-30
----
-# Purchase Value
++++
+title = "Purchase Value"
+date = 2023-05-30T00:00:00.000Z
+lastMod = 2023-05-30T00:00:00.000Z
+categories = [ "PortfolioPerformance" ]
 
-The Purchase Value of a security is the summed [value](http://localhost:8800/doku.php?id=pp:value) of each buy (+) and sell (-) transaction of that security, taken into account the reporting [period]({{< ref "/pp/period" >}}) . The value of a transaction includes the taxes and fees; sometimes also called “Net Transaction Value”.
++++
+The Purchase Value of a security is the summed value of each buy (+) and sell (-) transaction of that security, taken into account the reporting [period]({{< ref "period" >}}) . The value of a transaction includes the taxes and fees; sometimes also called “Net Transaction Value”.
 
 If the purchase date lies before the beginning of the reporting period, then the value at the beginning of the period is taken. If the purchase date lies within the period, then the value at the purchase date is used. However, if the purchase data is later than the end of the reporting period, then the purchase is not taken into account for the calculation of the purchase value.
 
@@ -23,7 +21,7 @@ Assume the following scenario. We are now 2023, May, 15th and you have bought 30
 
 The reported purchase value of a particular security is dependent upon the selected reporting period. In the table below, you can see that the purchase value of this simple transaction, can vary between 3300 EUR and 500 EUR, depending on the selected period.
 | Period | From … to … | Purchase Value |
-| ---- | ---- | ---- |
+| +++- | +++- | +++- |
 | 1 year | 2022, May 15 - 2023, May 15 | 3300 EUR |
 | 2 years | 2021, May 15 - 2023, May 15 | 3000 EUR |
 | 3 years | 2020, May 15 - 2023, May 15 | 2050 EUR |

@@ -1,11 +1,11 @@
----
-title: performance
-tags:
-categories:
-date: 2023-05-30
-lastMod: 2023-06-04
----
-Available at Sidebar > Reports > Performance
++++
+title = "Performance of your portfolio"
+date = 2023-05-30T00:00:00.000Z
+lastMod = 2023-06-04T00:00:00.000Z
+categories = [ "PortfolioPerformance" ]
+
++++
+All performance reports are available at Sidebar > Reports > Performance. 
 
 Selecting Performance in the sidebar shows the Dashboard. By default this dashboard contains three widgets (panels). For some reason, they are in Dutch (left-over from a previous installation?). With the menu (top right), you can
 

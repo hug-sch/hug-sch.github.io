@@ -1,4 +1,4 @@
-/* --- General --- */
+/* +++ General +++ */
 
 body {
   font-size: 1.2rem;
@@ -144,7 +144,7 @@ img {
 
 
 
-/* --- Navbar --- */
+/* +++ Navbar +++ */
 
 .navbar-custom {
   background: #ffffff;
@@ -302,14 +302,14 @@ img {
   }
 }
 
-/* --- home page ---*/
+/* +++ home page +++*/
 
 
 
-/* --- Footer --- */
+/* +++ Footer +++ */
 
 footer {
-  padding: 30px 0;
+  padding: 3px 0;
   background: #f5f5f7;
   border-top: 1px #EAEAEA solid;
   margin-top: auto;
@@ -335,7 +335,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   footer {
-    padding: 50px 0;
+    padding: 10px 0;
   }
   footer .footer-links {
     font-size: 18px;
@@ -345,7 +345,7 @@ footer .theme-by {
   }
 }
 
-/* --- Post preview --- */
+/* +++ Post preview +++ */
 
 .post-preview {
   padding: 20px 0;
@@ -452,7 +452,7 @@ footer .theme-by {
   } */
 }
 
-/* --- Tags --- */
+/* +++ Tags +++ */
 
 .blog-tags {
   color: #999;
@@ -503,7 +503,7 @@ footer .theme-by {
     float: left;
   }
 }
-/* --- Post and page headers --- */
+/* +++ Post and page headers +++ */
 
 .intro-header {
   margin: 50px 0 20px;
@@ -617,7 +617,7 @@ footer .theme-by {
   border-bottom-left-radius: 5px;
 }
 
-/* --- Pager --- */
+/* +++ Pager +++ */
 
 .pager li a {
   text-transform: uppercase;
@@ -659,7 +659,7 @@ h4.panel-title > span.badge {
   }
 }
 
-/* --- Tables --- */
+/* +++ Tables +++ */
 
 table {
   padding: 0;
@@ -695,13 +695,13 @@ table tr td :last-child {
   margin-bottom: 0;
 }
 
-/* --- Social media sharing section --- */
+/* +++ Social media sharing section +++ */
 
 #social-share-section {
   margin-bottom: 30px;
 }
 
-/* --- Google Custom Search Engine Popup --- */
+/* +++ Google Custom Search Engine Popup +++ */
 #modalSearch table tr, #modalSearch table tr td, #modalSearch table tr th {
   border:none;
 }

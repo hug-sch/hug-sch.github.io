@@ -1,12 +1,10 @@
----
-tags:
-- PP
-date: 2023-06-05
-title: Transfer
-categories: [PortfolioPerformance]
-lastMod: 2023-06-05
----
-Suppose that you want to switch (part of) your portfolio from Broker-A to Broker-B.  You have already made 4 transactions in the deposit account Broker-A (EUR): deposit, buy, dividend, and sell.
++++
+title = "Transferring securities with CSV"
+date = 2023-06-05
+lastMod = 2023-06-05
+categories = ["PortfolioPerformance"]
++++
+You want to switch (part of) your portfolio from Broker-A to Broker-B.  You have already made 4 transactions in the deposit account Broker-A (EUR): deposit, buy, dividend, and sell.
 ![image.png](/pp/assets/image_1685995052473_0.png)
 *Figure 1: Deposit Account of Broker-A*
 
