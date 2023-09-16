@@ -1,6 +1,6 @@
-baseURL = "https://hugsch.github.io/"
+baseURL = "https://hug-sch.github.io/"
 languageCode = "en-us"
-title = "hugsch"
+title = "hug-sch"
 enableRobotsTXT = true
 enableGitInfo = false
 Paginate = 6
